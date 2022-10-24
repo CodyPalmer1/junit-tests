@@ -33,5 +33,4 @@ public class CohortTest {
         cohort.addStudent(new Student(111111, "Cody"));
         assertEquals("Cody", cohort.getStudents().get(3).getName());
     }
-
 }
